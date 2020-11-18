@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Breaking Bad Character Explorer</string>
+    <string name="errorText">An error has occured, Please reload the app again</string>
+    <string name="loadingText">Loading characters..</string>
+</resources>
