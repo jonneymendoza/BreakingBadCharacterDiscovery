@@ -27,7 +27,6 @@ class GetCharactersUseCaseTest : KoinTest {
     val networkHelper: NetworkHelperContract by inject()
     val getCharactersUseCase : GetCharactersUseCase by inject()
 
-
     @get:Rule
     var rule: TestRule = InstantTaskExecutorRule()
 
@@ -42,7 +41,6 @@ class GetCharactersUseCaseTest : KoinTest {
     fun tearDown() {
         stopKoin()
     }
-
 
     @Test
     fun `test all fields that are mandatory and have some value ie the character image and character name`(){

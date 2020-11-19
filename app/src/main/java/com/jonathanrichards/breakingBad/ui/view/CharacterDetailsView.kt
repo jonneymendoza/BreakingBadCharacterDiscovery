@@ -12,6 +12,9 @@ import com.jonathanrichards.breakingBad.data.entity.BreakingBadCharacter
 import com.jonathanrichards.breakingBad.ui.components.theme.AppTheme.breakingBadTheme
 import dev.chrisbanes.accompanist.coil.CoilImage
 
+/**
+ * Character details screen UI
+ */
 class CharacterDetailsView constructor(private val breakingBadCharacter: BreakingBadCharacter) {
 
     @Composable

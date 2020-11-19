@@ -6,6 +6,8 @@ import com.jonathanrichards.breakingBad.data.network.contract.NetworkHelperContr
 import com.jonathanrichards.breakingBad.domain.repository.BreakingBadRepository
 import com.jonathanrichards.breakingBad.domain.repository.BreakingBadRepositryContract
 import com.jonathanrichards.breakingBad.domain.usecase.GetCharactersUseCase
+import com.jonathanrichards.breakingBad.ui.viewmodel.CharacterViewModel
+import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 object TestModule {
@@ -14,5 +16,6 @@ object TestModule {
         single<NetworkHelperContract> { NetworkTestHelper() }
         single<NetworkControllerContract> { NetworkController(get()) }
         factory { GetCharactersUseCase(get()) }
+        viewModel { CharacterViewModel(get()) }
     }
 }

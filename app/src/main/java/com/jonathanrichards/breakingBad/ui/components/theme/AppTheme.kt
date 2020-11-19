@@ -9,6 +9,9 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
+/**
+ * Object that creates and applies a theme to the UI.
+ */
 object AppTheme {
 
     private val lightbrown = Color(red = 253, green = 218, blue = 159)
@@ -32,7 +35,7 @@ object AppTheme {
     private val MyTypography = Typography(
         h1 = TextStyle(
             fontWeight = FontWeight.W300,
-            fontSize = 96.sp
+            fontSize = 28.sp
         ),
         body1 = TextStyle(
             fontSize = 16.sp,
