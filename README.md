@@ -1,6 +1,13 @@
 # BreakingBadCharacterDiscovery
 
-A simple android app that displays al the characters from breaking bad
+A simple android app that displays all the characters from breaking bad
+
+Features:
+
+* List all breaking bad characters
+* Filter list of characters based on season appearance
+* Search and filter characters based on keyword typed(You can for example search and display all characters from the Walter White's family
+* Display more details regarding the character on a seperate screen
 
 Tech stack used:
 
