@@ -18,3 +18,4 @@ Architecture used:
 Unit tests included:
 
 * UseCase unit tests
+* ViewModel tests
